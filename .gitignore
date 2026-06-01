@@ -1,0 +1,16 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.class
+*.log
+.mtj.tmp/
+*.jar
+*.war
+*.ear
+hs_err_pid*
+.idea/
+*.iml
+*.iws
+.project
+.classpath
+.settings/
+bin/
