@@ -23,6 +23,7 @@ public final class HotPayNotification {
 
     public boolean isSuccess() { return "SUCCESS".equalsIgnoreCase(status); }
     public boolean isFailure() { return "FAILURE".equalsIgnoreCase(status); }
+    public boolean isPending() { return "PENDING".equalsIgnoreCase(status); }
 
     public String getAmount() { return amount; }
     public String getPaymentId() { return paymentId; }
